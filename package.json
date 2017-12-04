@@ -1,0 +1,22 @@
+{
+    "name": "cordova-plugin-datetimepicker",
+    "cordova_name": "DateTime picker",
+    "description": "Cordova DateTime picker plugin",
+    "cordova": {
+        "id": "cordova-plugin-datetimepicker",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://eug17@bitbucket.org/eug17/cordova-plugin-datetimepicker.git"
+    },
+    "version": "1.0.0",
+    "license": "MIT"
+}
