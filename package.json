@@ -1,0 +1,40 @@
+{
+  "_from": "cordova-plugin-datetimepicker@^1.0.0",
+  "_id": "cordova-plugin-datetimepicker@1.0.0",
+  "_inBundle": false,
+  "_location": "/cordova-plugin-datetimepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-datetimepicker@^1.0.0",
+    "name": "cordova-plugin-datetimepicker",
+    "escapedName": "cordova-plugin-datetimepicker",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "cordova_name": "DateTime picker",
+  "deprecated": false,
+  "description": "Cordova DateTime picker plugin",
+  "engines": [],
+  "homepage": "https://github.com/skwasjer/skwas-cordova-plugin-datetimepicker#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "datetime"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-datetimepicker",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://eug17@bitbucket.org/eug17/cordova-plugin-datetimepicker.git"
+  },
+  "version": "1.0.0"
+}
