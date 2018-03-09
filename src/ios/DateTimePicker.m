@@ -154,8 +154,15 @@
     self.modalPicker.dismissText = okTextString;
     self.modalPicker.cancelText = cancelTextString;
 
+    print([self stringDateFromString:minDate]);
+    print([self stringDateFromString:maxDate]);
+    
+    NSLog(@"%@ max", [self stringDateFromString:maxDate]);
+    NSLog(@"%@ min", [self stringDateFromString:minDate]);
+    
     [datePicker setMinimumDate:[self stringDateFromString:minDate]];
     [datePicker setMaximumDate:[self stringDateFromString:maxDate]];
+    [datePicker setDate:[self stringDateFromString:minDate]];
 
     if (!allowFutureDates) datePicker.maximumDate = [NSDate date];
 
